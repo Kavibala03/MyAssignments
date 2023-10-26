@@ -19,10 +19,11 @@ public class FindSecondLargest{
 			int sec=numlist.get(numlist.size()-2);
 			System.out.println("Sec:" +sec);
 		}
-		else
+		else {
 			System.out.println("No second largest element");
 	}
 	
+}
 }
 
 
