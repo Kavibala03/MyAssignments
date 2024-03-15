@@ -37,9 +37,6 @@ public class CreateAcc {
 		driver.findElement(By.xpath("//span[text()='Public']")).click();
 		driver.findElement(By.xpath("(//button[text()='Save'])[2]")).click();
 		Thread.sleep(3000);
-		//WebElement text1 = driver.findElement(By.xpath("//div[@id='toastDescription2955:0']"));
-		//String text2 = text1.getText();
-		//System.out.println(text2);
 		String text = driver.findElement(By.xpath("//div[@class='toastContainer slds-notify_container slds-is-relative']")).getText();
 		System.out.println(text);
 		}
